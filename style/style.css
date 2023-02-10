@@ -1,0 +1,50 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: rgb(216, 226, 236);
+}
+h1{
+     text-align: center;
+     margin-top: 40px;
+     font-family: cursive;
+     font-weight: 900;
+}
+.container{
+     max-width: 1040px;
+     margin: 100px auto;
+     border: 2px solid rgb(255, 123, 0);
+     border-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     min-height: 500px;
+}
+.img-div{
+     width: 500px;
+}
+img{
+     width: 100%;
+}
+.icon{
+     width: 80px;
+     padding: 10px 30px;
+     background: tomato;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+}
+.fa-solid{
+     font-size: 2.rem;
+}
+.icon:hover{
+     background: transparent;
+     border: 2px solid skyblue;
+}
+.icon:active{
+     background: grey;
+     border: none;
+}
+ 
